@@ -1,0 +1,5 @@
+metric,threshold,cadence,owner
+topFeaturePsi,0.2,weekly,dataScience
+modelAccuracy,drop>0.05,weekly,dataScience
+predictionPositiveRate,delta>0.10,weekly,analytics
+retrainDecision,2 alerts in a row,monthly,team
