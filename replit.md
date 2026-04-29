@@ -6,8 +6,9 @@ A Cookiecutter Data Science (CCDS) project for predicting NCAA March Madness gam
 - **Language:** Python 3.10
 - **Packaging:** `pyproject.toml` (flit), installed in editable mode (`pip install -e .`)
 - **Source package:** `MarchMadness/` (config, dataset, features, plots, modeling/)
-- **Notebooks:** `notebooks/` (Week1–Week12 analyses + `GamePredictor2026.ipynb`)
-- **Models:** `models/` (pickled sklearn models, including `week12_deployed_model.pkl`)
+- **Notebooks:** `notebooks/` (Week1–Week12 analyses + `GamePredictor2026.ipynb` + `MarchMadness_Final.ipynb` — single end-to-end MDLC notebook)
+- **Models:** `models/` (pickled sklearn models, including `week12_deployed_model.pkl` and `final_deployed_model.pkl`)
+- **Scripts:** `scripts/build_final_notebook.py` regenerates `MarchMadness_Final.ipynb` from a single source.
 - **Data:** `data/{raw,interim,processed,external}`
 - **Reports:** `reports/` (PDFs)
 
