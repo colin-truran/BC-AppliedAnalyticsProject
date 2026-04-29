@@ -16,6 +16,25 @@ classifiers = [
     "License :: OSI Approved :: MIT License"
 ]
 requires-python = "~=3.10.0"
+dependencies = [
+    "black>=26.3.1",
+    "flake8>=7.3.0",
+    "ipython>=8.39.0",
+    "isort>=8.0.1",
+    "joblib>=1.5.3",
+    "jupyterlab>=4.5.7",
+    "loguru>=0.7.3",
+    "matplotlib>=3.10.9",
+    "notebook>=7.5.5",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "pytest>=9.0.3",
+    "python-dotenv>=1.2.2",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+    "tqdm>=4.67.3",
+    "typer>=0.25.0",
+]
 
 [tool.black]
 line-length = 99
